@@ -1,6 +1,6 @@
 # Overview
 
-This is a basic Hello World program. The program prints "HELLO WORLD" when it is ran.
+This is a basic Hello World program. The program prints "HELLO WORLD" when it is run.
 
 The Hello World program is used to check that I can write and run a basic program in Python before working on more complex programs in the language.
 
