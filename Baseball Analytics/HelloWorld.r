@@ -32,3 +32,26 @@ print(getwd())
 #rownames(inducted_batter2) <- inducted_batter[,1]
 
 #result <- aggregate(RBI ~ playerID, data = inducted_batter, paste, collapse = ",")
+
+
+#fame_data <- fame_data[which(!fame_data$playerID %in% inducted_data), ]
+
+
+# fame_names <- fame_data[which(fame_data$inducted == "Y"), ]
+# lame_names <- fame_data[which(fame_data$inducted == "N"), ]
+
+# names1 <- unique(fame_names)
+# names2 <- unique(lame_names)
+# names2 <- unique
+
+# print(nrow(names1))
+# print(nrow(names2))
+
+# write.csv(not_means, "C:\\Users\\Dylan Ashby\\Desktop\\Output.csv", )
+
+# Read data
+# ON MY LAPTOP
+#batter_data <-
+#    read.csv(file = "C:/Users/Doops/Desktop/archive/Batting.csv")
+#fame_data <-
+#    read.csv(file = "C:/Users/Doops/Desktop/archive/HallOfFame.csv")
