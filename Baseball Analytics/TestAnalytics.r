@@ -1,6 +1,11 @@
 # Read data
-batter_data <- read.csv(file = "C:/Users/Doops/Desktop/archive/Batting.csv")
-fame_data <- read.csv(file = "C:/Users/Doops/Desktop/archive/HallOfFame.csv")
+# ON MY LAPTOP
+#batter_data <- read.csv(file = "C:/Users/Doops/Desktop/archive/Batting.csv")
+#fame_data <- read.csv(file = "C:/Users/Doops/Desktop/archive/HallOfFame.csv")
+
+# ON MY DESKTOP
+batter_data <- read.csv(file = "C:/Users/Dylan Ashby/Desktop/archive/Batting.csv")
+fame_data <- read.csv(file = "C:/Users/Dylan Ashby/Desktop/archive/HallOfFame.csv")
 
 # Ommit any NA in the batter data
 batter_data <- na.omit(batter_data)
@@ -27,4 +32,4 @@ for (player in inducted_data) {
     append(career_stat_blocks, stat_block, )
 }
 
-print(summary(inducted_batter))
+#print(summary(inducted_batter))

@@ -6,8 +6,12 @@ text2 <- "HELLO"
 
 print(y)
 
-for (x in 1:10){
-    print(z)
-}
+#for (x in 1:10){
+    #print(z)
+#}
 
 paste(text1, text2)
+
+print(getwd())
+setwd("C:/Users/Dylan Ashby/Desktop/archive")
+print(getwd())
