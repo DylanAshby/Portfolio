@@ -1,3 +1,7 @@
+# DONT FORGE THIS
+# http://www.sthda.com/english/wiki/unpaired-two-samples-t-test-in-r
+
+
 y <- 2
 z <- 3
 
@@ -34,6 +38,15 @@ print(getwd())
 #result <- aggregate(RBI ~ playerID, data = inducted_batter, paste, collapse = ",")
 
 
+# # Get mean RBI for each category
+# mean_inducted_rbi <- mean(inducted_rbi_means$RBI)
+# mean_not_rbi <- mean(not_rbi_means$RBI)
+
+# # Print results
+# print(mean_inducted_rbi)
+# print(mean_not_rbi)
+
+
 #fame_data <- fame_data[which(!fame_data$playerID %in% inducted_data), ]
 
 
@@ -50,8 +63,3 @@ print(getwd())
 # write.csv(not_means, "C:\\Users\\Dylan Ashby\\Desktop\\Output.csv", )
 
 # Read data
-# ON MY LAPTOP
-#batter_data <-
-#    read.csv(file = "C:/Users/Doops/Desktop/archive/Batting.csv")
-#fame_data <-
-#    read.csv(file = "C:/Users/Doops/Desktop/archive/HallOfFame.csv")

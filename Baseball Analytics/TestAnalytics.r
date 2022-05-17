@@ -1,8 +1,15 @@
-# Load In Dataset
+# ON MY LAPTOP
 batter_data <-
-    read.csv(file = "C:/Users/Dylan Ashby/Desktop/archive/Batting.csv")
+   read.csv(file = "C:/Users/Doops/Desktop/archive/Batting.csv")
 fame_data <-
-    read.csv(file = "C:/Users/Dylan Ashby/Desktop/archive/HallOfFame.csv")
+   read.csv(file = "C:/Users/Doops/Desktop/archive/HallOfFame.csv")
+
+
+# # Load In Dataset
+# batter_data <-
+#     read.csv(file = "C:/Users/Dylan Ashby/Desktop/archive/Batting.csv")
+# fame_data <-
+#     read.csv(file = "C:/Users/Dylan Ashby/Desktop/archive/HallOfFame.csv")
 
 # Ommit any NA in the batter data
 batter_data <- na.omit(batter_data)
@@ -28,7 +35,7 @@ not_batter <-
 
 
 
-# QUESTION 1: Is there
+# QUESTION 1: Do players
 
 # Find mean RBI for each player
 inducted_rbi_means <- aggregate(RBI ~ playerID, data = inducted_batter, mean)
@@ -38,10 +45,5 @@ not_rbi_means <- aggregate(RBI ~ playerID, data = not_batter, mean)
 not_rbi_means <- not_rbi_means[which(
     !not_rbi_means$playerID %in% inducted_rbi_means$playerID), ]
 
-# Get mean RBI for each category
-mean_inducted_rbi <- mean(inducted_rbi_means$RBI)
-mean_not_rbi <- mean(not_rbi_means$RBI)
-
-# Print results
-print(mean_inducted_rbi)
-print(mean_not_rbi)
+# Perform Two-samples T-test
+print(t.test(inducted_rbi_means$RBI, not_rbi_means$RBI, var.equal = FALSE))
