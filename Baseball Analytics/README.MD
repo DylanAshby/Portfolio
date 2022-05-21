@@ -21,6 +21,9 @@ Question 2: From players nominated to the hall of fame, do the ones who are indu
 Results:    Using an alpha value of 0.05, there is insufficient evidence to suggest the alrenate hypothesis is true.
             In other words, it seems unlikely that hall of fame players have a higher salary.
 
+Question 3: What team has a hall of fame player the most number of years combined accross all players?
+Results:    The Chicago Cubs had the most with 108 active years combined.
+
 
 # Development Environment
 
@@ -35,6 +38,11 @@ Written using R Language version 4.2.0
 * [Tutorials Point](https://www.tutorialspoint.com/r/r_operators.htm#:~:text=An%20operator%20is%20a%20symbol,provides%20following%20types%20of%20operators.)
 * [Naval Postgraduate School](https://faculty.nps.edu/sebuttre/home/R/text.html#:~:text=The%20most%20commonly%20used%20are,a%20(single)%20backslash%20character.)
 * [R CODER](https://r-coder.com/aggregate-r/)
+* [Quick-R](https://www.statmethods.net/management/operators.html)
+* [ProgrammingR](https://www.programmingr.com/examples/r-dataframe/sort-r-data-frame/)
+* [W3 Schools](https://www.w3schools.com/r/r_for_loop.asp)
+* [Journal Dev](https://www.journaldev.com/45274/which-function-in-r)
+* [Stack Overflow](https://stackoverflow.com/)
 
 # Future Work
 
