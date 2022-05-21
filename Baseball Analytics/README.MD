@@ -9,6 +9,7 @@ My hope for writing this program was to introduce myself to R language and explo
 
 [Software Demo Video](http://youtube.link.goes.here)
 
+
 # Data Analysis Results
 
 To test the analytics capabilites of R, I came up with three simple questions that could be tested for using a independent samples T-test.
@@ -21,7 +22,7 @@ Question 2: From players nominated to the hall of fame, do the ones who are indu
 Results:    Using an alpha value of 0.05, there is insufficient evidence to suggest the alrenate hypothesis is true.
             In other words, it seems unlikely that hall of fame players have a higher salary.
 
-Question 3: What team has a hall of fame player the most number of years combined accross all players?
+Question 3: What team has a hall of fame player the greatest number of years combined across all players?
 Results:    The Chicago Cubs had the most with 108 active years combined.
 
 
@@ -30,6 +31,7 @@ Results:    The Chicago Cubs had the most with 108 active years combined.
 Developed using Visual Studio Code and RGui
 
 Written using R Language version 4.2.0
+
 
 # Useful Websites
 
@@ -43,6 +45,7 @@ Written using R Language version 4.2.0
 * [W3 Schools](https://www.w3schools.com/r/r_for_loop.asp)
 * [Journal Dev](https://www.journaldev.com/45274/which-function-in-r)
 * [Stack Overflow](https://stackoverflow.com/)
+
 
 # Future Work
 
