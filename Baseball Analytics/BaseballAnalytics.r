@@ -68,8 +68,8 @@ print("Alpha value: 0.05")
 print(t.test(inducted_sal_means$salary, not_sal_means$salary, var.equal =FALSE))
 
 
-# Question 3: What team has a hall of fame player the greatest number of years
-#             combined across all players?
+# Question 3: What team has the greatest number of years with hall of fame
+#             players combined across all players?
 
 # Make a list of the team names and sort out repeats
 teams <- unique(team_data$teamID)
