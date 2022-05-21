@@ -5,9 +5,7 @@ The databank can be found here: https://www.kaggle.com/datasets/open-source-spor
 
 My hope for writing this program was to introduce myself to R language and explore what its capable of for data analytics.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and answers, the code running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=D4fKuooLTLI)
 
 
 # Data Analysis Results
