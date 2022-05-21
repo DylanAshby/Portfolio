@@ -11,10 +11,6 @@ team_data <-
 # Ommit any NA in the batter data
 batter_data <- na.omit(batter_data)
 
-# Turn data into a data frame
-batter_data <- data.frame(batter_data)
-fame_data <- data.frame(fame_data)
-
 # Get all players actually inducted
 inducted_data <- fame_data[which(fame_data$inducted == "Y"), ]
 
