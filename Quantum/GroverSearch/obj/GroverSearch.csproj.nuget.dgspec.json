@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj": {}
+    "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj": {
+    "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj",
+        "projectUniqueName": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj",
         "projectName": "GroverSearch",
-        "projectPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj",
+        "projectPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj",
         "packagesPath": "C:\\Users\\Dylan Ashby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\obj\\",
+        "outputPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\GroverSearch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
