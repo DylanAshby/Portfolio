@@ -12,4 +12,3 @@ namespace Qrng {
         return M(q);
     }
 }
-
