@@ -14,7 +14,7 @@ output_sorted(List) ->
     io:format("~p\n", [N_list]).
 
 sort(List, 2) ->
-    HighestIndex = highest(List, 0, 0, 0, 1),
+    HighestIndex = highest(List, 0, 0, 0, 2),
     swap(List, 0, HighestIndex, 0);
 sort(List, Length) ->
     HighestIndex = highest(List, 0, 0, 0, Length),
@@ -32,11 +32,11 @@ highest([First| _], High, _, HighIn, 1) when First < High->
 
 swap([First | Rest], Count, Index1, Index2) when (Count < Index1) ->
     [First | swap(Rest, Count+1, Index1, Index2)];
+swap(List, _, Index1, Index2) when (Index1 > Index2)->
+    List;
 swap([First | Rest], _, Index1, Index2) ->
-    replace(First, Rest, 0, Index2-Index1);
-swap(List, _, _, _) ->
-    List.
- 
+    replace(First, Rest, 0, Index2-Index1).
+
 replace(Item, [First | List], Count, Index) when Count < Index ->
     [Sendback | Rest] = replace(Item, List, Count+1, Index),
     [Sendback, First | Rest];
