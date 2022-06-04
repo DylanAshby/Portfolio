@@ -1,4 +1,4 @@
--module(bubble).
+-module(sorting).
 -export([output_evens/1, output_odds/1, output_sorted/1, sort/2, highest/5, swap/4, replace/4]).
 
 output_evens(List) ->
