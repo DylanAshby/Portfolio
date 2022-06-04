@@ -28,3 +28,28 @@ split([Left | Right]) ->
 
 % io:fwrite("List size: ~p\n",[num(List1)]),
 % io:fwrite("~p\n", [merge(List1, List2)]).
+
+% A1 = array:new(10),
+%     10 = array:size(A1),
+
+% sort([First | Last]) when First > Last ->
+%     [First | sort(Last)];
+% sort([First | Last]) when First < Last ->
+%     lists:reverse([First | sort(Last)]);
+% sort(Last) -> Last.
+
+
+% THIS PROVES PATTERN RECGONITION WORKS THIS WAY
+% highest([First | List], High, Index, Length) when (First >= High) and (Length > 2) ->
+%     io:format("~p\n", [First]),
+%     highest(List, First, Index+1, Length-1);
+% highest([First | List], High, Index, Length) when (First < High) and (Length > 2) ->
+%     io:format("~p\n", [First]),
+%     highest(List, High, Index+1, Length-1);
+% highest(First, High, Index, 2) when First >= High ->
+%     io:format("~p\n", [First]),
+%     highest(First, High, Index+1, 1),
+%     Index;
+% highest(First, High, Index, 1) when First >= High->
+%     io:format("CORRECT: ~p\n", [First]),
+%     Index-1.
