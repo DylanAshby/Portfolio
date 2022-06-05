@@ -4,7 +4,7 @@ There are 3 .erl files in this folder. The main software from this project is in
 
 This project is my first exploration into the Erlang language and I wrote the included software to expiriment with a variety of Erlang's featrures.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/_2xnR45ma84)
 
 # Development Environment
 
