@@ -1,28 +1,22 @@
 namespace Teleport {
-
-    open Microsoft.Quantum.Convert;
-    open Microsoft.Quantum.Math;
-    open Microsoft.Quantum.Measurement;
-    open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
+    open Microsoft.Quantum.Canon;
+    open Microsoft.Quantum.Measurement;
+
     
     @EntryPoint()
-    operation Bit16Gen() : Bool[]{
-        mutable output = [];
-        mutable bits = [];
+    operation Teleport (msg : Qubit, target : Qubit) : Unit {
+        use register = Qubit();
 
-        for bit in 0 .. 16 {
-            set bits += [QuantumRandomNumberGenerator()];
-        }
+        H(register);
+        CNOT(register, terget);
 
-        set output = ResultArrayAsBoolArray(bits);
-        return output;
+        CNOT(message, register);
+        H(message);
+
+        if (MReset(message) == One) { Z(target); }
+        if (IsResultOne(MResetZ(register))) { X(target); }
     }
 
-    operation QuantumRandomNumberGenerator(): Result {
-        use q = Qubit();
-
-        H(q);
-        return M(q);
-    }
+    
 }

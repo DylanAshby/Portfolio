@@ -1,4 +1,0 @@
-Links:
-
-Microsoft Quantum Development Kit:
-https://www.youtube.com/watch?v=v7b4J2INq9c
