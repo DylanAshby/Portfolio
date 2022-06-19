@@ -7082,11 +7082,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
+      "projectUniqueName": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
       "projectName": "Qrng",
-      "projectPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
+      "projectPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
       "packagesPath": "C:\\Users\\Dylan Ashby\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\obj\\",
+      "outputPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7158,7 +7158,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
