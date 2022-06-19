@@ -1,6 +1,6 @@
 # Overview
 
-This project contains a few basic Q# programs testing the basics of the language, and operations specific to quantum programming
+This project contains a few basic Q# programs testing the basics of the language as well asoperations specific to quantum programming
 
 This was created to teach myself how to set up standalone projects in Q# using the Microsoft Quantum Development Kit (QDK)
 
