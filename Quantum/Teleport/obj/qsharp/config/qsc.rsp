@@ -1,10 +1,10 @@
 --proj
-    "C:\Users\Dylan Ashby\Desktop\Portfolio\Quantum\Teleport\Teleport"
+    "c:\Users\Dylan Ashby\Desktop\Portfolio\Quantum\Teleport\Teleport"
 --build-exe
 --input
-    "C:\Users\Dylan Ashby\Desktop\Portfolio\Quantum\Teleport\Program.qs"
+    "c:\Users\Dylan Ashby\Desktop\Portfolio\Quantum\Teleport\Program.qs"
 --output
-    "C:/Users/Dylan Ashby/Desktop/Portfolio/Quantum/Teleport/obj/qsharp/"
+    "c:/Users/Dylan Ashby/Desktop/Portfolio/Quantum/Teleport/obj/qsharp/"
 --references
     "C:\Users\Dylan Ashby\.nuget\packages\azure.core\1.22.0\lib\net5.0\Azure.Core.dll"
     "C:\Users\Dylan Ashby\.nuget\packages\azure.identity\1.5.0\lib\netstandard2.0\Azure.Identity.dll"
@@ -43,7 +43,7 @@
     FullComputation
 --skip-monomorphization
 --package-load-fallback-folders
-    "C:/Users/Dylan Ashby/Desktop/Portfolio/Quantum/Teleport/bin/Debug/net6.0/"
+    "c:/Users/Dylan Ashby/Desktop/Portfolio/Quantum/Teleport/bin/Debug/net6.0/"
 --assembly-properties
     DocsPackageId:Teleport
     ExecutionTarget:Any

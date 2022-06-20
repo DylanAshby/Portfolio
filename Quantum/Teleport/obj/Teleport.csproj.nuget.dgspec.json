@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj": {}
+    "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj": {
+    "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj",
+        "projectUniqueName": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj",
         "projectName": "Teleport",
-        "projectPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj",
+        "projectPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj",
         "packagesPath": "C:\\Users\\Dylan Ashby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\obj\\",
+        "outputPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

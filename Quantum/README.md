@@ -24,6 +24,7 @@ Written using Q#
 * [Q# Measure operation](https://docs.microsoft.com/en-us/qsharp/api/qsharp/microsoft.quantum.intrinsic.measure)
 * [Tutorial: Implement a quantum random number generator in Q#](https://docs.microsoft.com/en-us/azure/quantum/tutorial-qdk-quantum-random-number-generator?tabs=tabid-qsharp)
 * [Quantum Teleportation Example](https://github.com/microsoft/Quantum/tree/main/samples/getting-started/teleportation)
+* [Tutorial: Explore quantum entanglement with Q#](https://docs.microsoft.com/en-us/azure/quantum/tutorial-qdk-explore-entanglement?pivots=ide-azure-portal#initialize-a-qubit-using-measurement)
 
 # Future Work
 
