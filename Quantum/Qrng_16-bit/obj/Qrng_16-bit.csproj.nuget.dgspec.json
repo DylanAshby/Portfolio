@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj": {}
+    "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj": {
+    "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj",
+        "projectUniqueName": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj",
         "projectName": "Qrng_16-bit",
-        "projectPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj",
+        "projectPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj",
         "packagesPath": "C:\\Users\\Dylan Ashby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\obj\\",
+        "outputPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
