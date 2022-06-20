@@ -15,4 +15,3 @@ namespace Qrng {
         return M(q); // Returning the Qubit observes it which forces ito eiter a 0 or a 1
     }
 }
-}
