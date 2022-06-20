@@ -54,7 +54,7 @@ namespace Teleport {
         // We can also use library functions such as IsResultOne to write
         // out correction steps. This is especially helpful when composing
         // conditionals with other functions and operations, or with partial
-        // application.
+        // application. 
         if (IsResultOne(MResetZ(register))) { X(target); }
     }
 
