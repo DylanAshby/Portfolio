@@ -9,9 +9,9 @@ namespace Qrng {
     // Main operation
     @EntryPoint()
     operation QuantumRandomNumberGenerator(): Result {
-         use q = Qubit(); // Create a siingle Qubit object
+        use q = Qubit(); // Create a siingle Qubit object
         
         H(q);        // Put Qubit in superposition
-        return M(q); // Returning the Qubit observes it which forces ito eiter a 0 or a 1
+        return M(q); // Returning the Qubit observes it which forces ito either a 0 or a 1
     }
 }
