@@ -4,7 +4,7 @@ This project contains a few basic Q# programs testing the basics of the language
 
 This was created to teach myself how to set up standalone projects in Q# using the Microsoft Quantum Development Kit (QDK)
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/nq6WGBjbAKs)
 
 # Development Environment
 
@@ -25,6 +25,9 @@ Written using Q#
 * [Tutorial: Implement a quantum random number generator in Q#](https://docs.microsoft.com/en-us/azure/quantum/tutorial-qdk-quantum-random-number-generator?tabs=tabid-qsharp)
 * [Quantum Teleportation Example](https://github.com/microsoft/Quantum/tree/main/samples/getting-started/teleportation)
 * [Tutorial: Explore quantum entanglement with Q#](https://docs.microsoft.com/en-us/azure/quantum/tutorial-qdk-explore-entanglement?pivots=ide-azure-portal#initialize-a-qubit-using-measurement)
+* [MResetZ operation](https://docs.microsoft.com/en-us/qsharp/api/qsharp/microsoft.quantum.measurement.mresetz)
+* [Microsoft.Quantum.Intrinsic namespace](https://docs.microsoft.com/mt-mt/qsharp/api/qsharp/microsoft.quantum.intrinsic)
+* [Introduction to the Z Gate With Code](https://quantumcomputinguk.org/tutorials/z-gate)
 
 # Future Work
 
