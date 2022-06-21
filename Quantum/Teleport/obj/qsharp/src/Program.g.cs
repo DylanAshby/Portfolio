@@ -17,12 +17,12 @@ using Microsoft.Quantum.Simulation.Core;
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleport\",\"Name\":\"RunProgram\"},\"Attributes\":[],\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":11,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
 [assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleport\",\"Name\":\"Tele\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":37,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":15}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"message\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":17},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"target\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":40}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleport\",\"Name\":\"Tele\"},\"Attributes\":[],\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":37,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":15}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleport\",\"Name\":\"TeleportMsg\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":61,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"message\"]},\"Type\":{\"Case\":\"Bool\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":31}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Bool\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleport\",\"Name\":\"TeleportMsg\"},\"Attributes\":[],\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":61,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleport\",\"Name\":\"Bit16Gen\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":72,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleport\",\"Name\":\"Bit16Gen\"},\"Attributes\":[],\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":72,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleport\",\"Name\":\"QuantumRandomNumberGenerator\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":88,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":39}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Result\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleport\",\"Name\":\"QuantumRandomNumberGenerator\"},\"Attributes\":[],\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":88,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":39}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleport\",\"Name\":\"TeleportMsg\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":52,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"message\"]},\"Type\":{\"Case\":\"Bool\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":31}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Bool\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleport\",\"Name\":\"TeleportMsg\"},\"Attributes\":[],\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":52,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleport\",\"Name\":\"Bit16Gen\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":63,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Bool\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleport\",\"Name\":\"Bit16Gen\"},\"Attributes\":[],\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":63,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleport\",\"Name\":\"QuantumRandomNumberGenerator\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":79,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":39}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Result\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleport\",\"Name\":\"QuantumRandomNumberGenerator\"},\"Attributes\":[],\"SourceFile\":\"c:\\\\Users\\\\Dylan Ashby\\\\Desktop\\\\Portfolio\\\\Quantum\\\\Teleport\\\\Program.qs\",\"Position\":{\"Item1\":79,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":39}},\"Documentation\":[]}")]
 #line hidden
 namespace Teleport
 {
@@ -114,7 +114,7 @@ namespace Teleport
         }
     }
 
-    [SourceLocation("c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs", OperationFunctor.Body, 38, 62)]
+    [SourceLocation("c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs", OperationFunctor.Body, 38, 53)]
     public partial class Tele : Operation<(Qubit,Qubit), QVoid>, ICallable
     {
         public Tele(IOperationFactory m) : base(m)
@@ -175,12 +175,6 @@ namespace Teleport
             set;
         }
 
-        protected ICallable<Result, Boolean> Microsoft__Quantum__Canon__IsResultOne
-        {
-            get;
-            set;
-        }
-
         protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__X
         {
             get;
@@ -206,17 +200,17 @@ namespace Teleport
                     Microsoft__Quantum__Intrinsic__CNOT.Apply((message, register));
 #line 45 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                     Microsoft__Quantum__Intrinsic__H.Apply(message);
-#line 53 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 48 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                     if ((Microsoft__Quantum__Measurement__MResetZ.Apply(message) == Result.One))
                     {
-#line 53 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 48 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                         Microsoft__Quantum__Intrinsic__Z.Apply(target);
                     }
 
-#line 58 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
-                    if (Microsoft__Quantum__Canon__IsResultOne.Apply(Microsoft__Quantum__Measurement__MResetZ.Apply(register)))
+#line 49 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+                    if ((Microsoft__Quantum__Measurement__MResetZ.Apply(register) == Result.One))
                     {
-#line 58 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 49 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                         Microsoft__Quantum__Intrinsic__X.Apply(target);
                     }
                 }
@@ -250,7 +244,6 @@ namespace Teleport
             this.Microsoft__Quantum__Intrinsic__CNOT = this.__Factory__.Get<IUnitary<(Qubit,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.CNOT));
             this.Microsoft__Quantum__Measurement__MResetZ = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Measurement.MResetZ));
             this.Microsoft__Quantum__Intrinsic__Z = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.Z));
-            this.Microsoft__Quantum__Canon__IsResultOne = this.__Factory__.Get<ICallable<Result, Boolean>>(typeof(global::Microsoft.Quantum.Canon.IsResultOne));
             this.Microsoft__Quantum__Intrinsic__X = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.X));
         }
 
@@ -262,7 +255,7 @@ namespace Teleport
         }
     }
 
-    [SourceLocation("c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs", OperationFunctor.Body, 62, 73)]
+    [SourceLocation("c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs", OperationFunctor.Body, 53, 64)]
     public partial class TeleportMsg : Operation<Boolean, Boolean>, ICallable
     {
         public TeleportMsg(IOperationFactory m) : base(m)
@@ -306,22 +299,22 @@ namespace Teleport
             var message = __in__;
 #line hidden
             {
-#line 64 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 55 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                 var (msg,target) = (Allocate__.Apply(), Allocate__.Apply());
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 66 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 57 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                     if (message)
                     {
-#line 66 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 57 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                         Microsoft__Quantum__Intrinsic__X.Apply(msg);
                     }
 
-#line 68 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 59 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                     Tele__.Apply((msg, target));
-#line 69 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 60 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                     return (Microsoft__Quantum__Measurement__MResetZ.Apply(target) == Result.One);
                 }
 #line hidden
@@ -362,7 +355,7 @@ namespace Teleport
         }
     }
 
-    [SourceLocation("c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs", OperationFunctor.Body, 73, 89)]
+    [SourceLocation("c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs", OperationFunctor.Body, 64, 80)]
     public partial class Bit16Gen : Operation<QVoid, IQArray<Boolean>>, ICallable
     {
         public Bit16Gen(IOperationFactory m) : base(m)
@@ -385,21 +378,21 @@ namespace Teleport
 
         public override Func<QVoid, IQArray<Boolean>> __Body__ => (__in__) =>
         {
-#line 75 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 66 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
             var output = new QArray<Boolean>();
-#line 76 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 67 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
             var bits = new QArray<Result>();
-#line 79 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 70 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
             foreach (var bit in new QRange(0L, 16L))
 #line hidden
             {
-#line 80 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 71 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                 bits = QArray<Result>.Add(bits, new QArray<Result>(QuantumRandomNumberGenerator__.Apply(QVoid.Instance)));
             }
 
-#line 84 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 75 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
             output = new QArray<Boolean>(Microsoft__Quantum__Convert__ResultArrayAsBoolArray.Apply(bits?.Copy()));
-#line 85 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 76 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
             return output;
         }
 
@@ -418,7 +411,7 @@ namespace Teleport
         }
     }
 
-    [SourceLocation("c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs", OperationFunctor.Body, 89, -1)]
+    [SourceLocation("c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs", OperationFunctor.Body, 80, -1)]
     public partial class QuantumRandomNumberGenerator : Operation<QVoid, Result>, ICallable
     {
         public QuantumRandomNumberGenerator(IOperationFactory m) : base(m)
@@ -455,15 +448,15 @@ namespace Teleport
         {
 #line hidden
             {
-#line 90 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 81 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                 var q = Allocate__.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 92 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 83 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                     Microsoft__Quantum__Intrinsic__H.Apply(q);
-#line 93 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
+#line 84 "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Program.qs"
                     return Microsoft__Quantum__Intrinsic__M.Apply(q);
                 }
 #line hidden

@@ -44,18 +44,9 @@ namespace Teleport {
         CNOT(message, register);// Send message into our sender
         H(message);             // Placiing message into superpositon causes the message to send
 
-        // EXPLAINATION COMES FROM LINE 47 HERE: https://github.com/microsoft/Quantum/blob/main/samples/getting-started/teleportation/TeleportationSample.qs
-        // Measure the qubits to extract the classical data we need to
-        // decode the message by applying the corrections on
-        // the target qubit accordingly.
-        // We use MResetZ from the Microsoft.Quantum.Measurement namespace
-        // to reset our qubits as we go.
-        if (MResetZ(message) == One) { Z(target); }
-        // We can also use library functions such as IsResultOne to write
-        // out correction steps. This is especially helpful when composing
-        // conditionals with other functions and operations, or with partial
-        // application. 
-        if (IsResultOne(MResetZ(register))) { X(target); }
+        // USe MResetZ to measure message and register while resetting them to zero so they can be released
+        if (MResetZ(message) == One) { Z(target); }     // If the sent message was one, apply a Z gate so the state does not change when measured
+        if (MResetZ(register) == One) { X(target); }    // If the register step of the sending was equal to one, flip the result with an X gate to apply needed correction
     }
 
     // Converts the input and output of the teleportation between classical bits and a Qubits
@@ -66,7 +57,7 @@ namespace Teleport {
         if (message) { X(msg); }        // If the message is ONE, set our sender Qubit to ONE
 
         Tele(msg, target);              // Pass the sender and receiver Qubits through the tele operatiion
-        return MResetZ(target) == One;  // Return the result of the teleportatiion and convert into a bool
+        return MResetZ(target) == One;  // Return the measured target of the teleportation and reset target to be released. Convert output to a bool
     }
 
     // Creates a 16 bit Q register
