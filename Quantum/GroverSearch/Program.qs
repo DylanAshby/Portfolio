@@ -55,7 +55,7 @@ namespace GroversTutorial {
         let result = LittleEndian(resultQubits);
         within{
             ApplyXorInPlace(dividend, xs);
-            DivideI(xs, ys, result);
+            //DivideI(xs, ys, result);
             ApplyToEachA(X, xs!);
         }
         apply{

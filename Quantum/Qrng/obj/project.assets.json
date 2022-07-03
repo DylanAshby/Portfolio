@@ -7076,23 +7076,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dylan Ashby\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Doops\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
+      "projectUniqueName": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
       "projectName": "Qrng",
-      "projectPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
-      "packagesPath": "C:\\Users\\Dylan Ashby\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\obj\\",
+      "projectPath": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
+      "packagesPath": "C:\\Users\\Doops\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\Qrng\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dylan Ashby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Doops\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
