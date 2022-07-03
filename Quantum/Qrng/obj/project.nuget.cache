@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "89PjDzs4hZr4BYRFCibYV9IXsMUHJRALpqwScxABjh1URBpatClzbzdEin8AMv+Y8FGZ3pU0k1+rEGX8wl57OQ==",
+=======
+  "dgSpecHash": "QHAP6VQY9/5WL8geRKmFt7L4aUtl1KpqpXVuQ32vHPGx5odmNR8HGwInKGhFSRfFUdw94GQaiKmnK+JlPbk0Gw==",
+>>>>>>> 5b8055a6846f3c609963dace69dc0f4834774b90
   "success": true,
   "projectFilePath": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
   "expectedPackageFiles": [

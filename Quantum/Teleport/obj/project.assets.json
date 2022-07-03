@@ -7082,19 +7082,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
-      "projectName": "Qrng",
-      "projectPath": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
+<<<<<<< HEAD:Quantum/GroverSearch/obj/project.assets.json
+      "projectUniqueName": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj",
+      "projectName": "GroverSearch",
+      "projectPath": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj",
       "packagesPath": "C:\\Users\\Doops\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\Qrng\\obj\\",
+      "outputPath": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\GroverSearch\\obj\\",
 =======
-      "projectUniqueName": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
-      "projectName": "Qrng",
-      "projectPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\Qrng.csproj",
+      "projectUniqueName": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj",
+      "projectName": "Teleport",
+      "projectPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj",
       "packagesPath": "C:\\Users\\Dylan Ashby\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng\\obj\\",
->>>>>>> 5b8055a6846f3c609963dace69dc0f4834774b90
+      "outputPath": "C:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\obj\\",
+>>>>>>> 5b8055a6846f3c609963dace69dc0f4834774b90:Quantum/Teleport/obj/project.assets.json
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

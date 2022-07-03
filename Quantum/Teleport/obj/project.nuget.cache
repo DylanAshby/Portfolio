@@ -1,14 +1,14 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "cQIOygYvp3Ol5oxIxS1Gz+00F4/tCNdmweVBOvaQWNZY/mwnDuvoIZlxOsjsORM/eYqMO8Hz4yNdc5dDLNf6FQ==",
+<<<<<<< HEAD:Quantum/GroverSearch/obj/project.nuget.cache
+  "dgSpecHash": "BIXJ+5Xq38khMB9sgfmvKmTThJvygc2h9lf7KCWspQcl0SPdLhQ2aOIt1lH9jSZ3B5w5EFeaXAabzUFujHVeBg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj",
+  "projectFilePath": "c:\\Users\\Doops\\Desktop\\CSE 310\\Portfolio\\Quantum\\GroverSearch\\GroverSearch.csproj",
 =======
-  "dgSpecHash": "Y5iYWfUBiBKgrlmst3H5785f0htYNnayeGoLk5/2TDpcNBE/C+++uhfQIA65fiBndnnh4dqQvhLaRaUVM3nfOg==",
+  "dgSpecHash": "NRln0NaURaJ7KF48t7/Ajevj3pnYdyZfmAFPVLuVmcydj9upY1hawEt6YjDDd62pEKvKYRrz6fUWYW365Et5ww==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Qrng_16-bit\\Qrng_16-bit.csproj",
->>>>>>> 5b8055a6846f3c609963dace69dc0f4834774b90
+  "projectFilePath": "c:\\Users\\Dylan Ashby\\Desktop\\Portfolio\\Quantum\\Teleport\\Teleport.csproj",
+>>>>>>> 5b8055a6846f3c609963dace69dc0f4834774b90:Quantum/Teleport/obj/project.nuget.cache
   "expectedPackageFiles": [
     "C:\\Users\\Doops\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Doops\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",
