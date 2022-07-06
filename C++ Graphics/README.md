@@ -1,30 +1,26 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This program implements matrix transformation that processes a large list of coordinates. 
 
-{Provide a description the software that you wrote to demonstrate the C++ language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+When learning lienar algebra concepts I learned about matrix transformations commonly used on computer graphics. This program was created to test out some of those concepts.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+Developed using Visiual Studio 2022
 
-{Describe the programming language that you used and any libraries.}
+Written in C++
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [C++ Reference](http://url.link.goes.here)
+* [EDUCBA C++ Tutuorial](https://www.educba.com/c-plus-plus-expression/)
+* [Linear Algebra and Its Applications (book)](https://books.google.com/books/about/Linear_Algebra_and_Its_Applications.html?id=bM6gBwAAQBAJ&source=kp_book_description)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Make it so you can change the transformation matrix to do more than just a 90 degree rotation
+* Add in code to do projection and 3d transformations
+* Use a graphics library to test this program using real graphics
